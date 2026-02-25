@@ -1,0 +1,32 @@
+# Core dependencies
+yfinance==0.2.38
+pandas==2.2.0
+numpy==1.26.4
+
+# Technical analysis
+ta-lib==0.4.28
+pandas-ta==0.3.14b
+
+# Data visualization
+matplotlib==3.8.3
+plotly==5.19.0
+
+# Database
+sqlalchemy==2.0.27
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Logging
+loguru==0.7.2
+
+# Async support
+aiohttp==3.9.3
+asyncio==3.4.3
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0

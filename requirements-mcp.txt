@@ -1,0 +1,6 @@
+# MCP Server Dependencies
+mcp>=0.9.0
+pydantic>=2.6.1
+
+# Include all base requirements
+-r requirements.txt

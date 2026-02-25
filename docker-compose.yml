@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  trading-agent:
+    build: .
+    container_name: trading-agent
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./config:/app/config
+    environment:
+      - TZ=Asia/Seoul
+    networks:
+      - trading-network
+
+networks:
+  trading-network:
+    driver: bridge

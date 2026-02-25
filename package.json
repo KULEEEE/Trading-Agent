@@ -1,0 +1,33 @@
+{
+  "name": "trading-agent-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for Yahoo Finance Trading Agent - Provides stock analysis, backtesting, and trading simulation tools for Claude Code",
+  "main": "mcp_server.py",
+  "keywords": [
+    "mcp",
+    "trading",
+    "stocks",
+    "finance",
+    "yahoo-finance",
+    "backtesting",
+    "technical-analysis",
+    "claude-code"
+  ],
+  "author": "Trading Agent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/trading-agent-mcp"
+  },
+  "mcp": {
+    "server": {
+      "command": "python3",
+      "args": ["mcp_server.py"],
+      "env": {}
+    }
+  },
+  "scripts": {
+    "start": "python3 mcp_server.py",
+    "setup": "pip install -r requirements-mcp.txt"
+  }
+}
